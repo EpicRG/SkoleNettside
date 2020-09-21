@@ -37,6 +37,14 @@ a {
   margin: 0;
 }
 
+body{
+  background-image: url("../PNG/");
+}
+
+h1{
+  text-align: Center;
+}
+
 /* Add a blue background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: cyan;
