@@ -75,3 +75,17 @@ h1{
   display: block;
 }
 
+/* Grids*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px 200px;
+}
+
+.page-grid {
+  display: grid;
+}
+
+.nav-bar-grid {
+  display: grid;
+}
