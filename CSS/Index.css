@@ -1,4 +1,8 @@
 /* CSS Document */
+body {
+  background: #e6e6fa;
+}
+
 a {
 	color: cyan;
 }
@@ -31,6 +35,8 @@ a {
   border: none;
   outline: none;
   color: black;
+  margin-left: 8px;
+  margin-right: 8px;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -53,6 +59,8 @@ h1{
   position: absolute;
   left: 0;
   background-color: cyan;
+  margin-left: 8px;
+  margin-right: 8px;
   width: 100%;
   z-index: 1;
 }
@@ -61,18 +69,24 @@ h1{
 .subnav-content a {
   float: left;
   color: black;
+  margin-left: 8px;
+  margin-right: 8px;
   text-decoration: none;
 }
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
   background-color: #eee;
+  margin-left: 8px;
+  margin-right: 8px;
   color: black;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
   display: block;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 /* Grids*/
