@@ -1,0 +1,24 @@
+body {
+    background-color: #eee;
+}
+
+h2{
+    align-content: center;
+}
+
+video{
+    align-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 200px;
+  }
+  
+  .page-grid {
+    display: grid;
+  }
+  
+  .nav-bar-grid {
+    display: grid;
+  }

@@ -2,4 +2,22 @@
 
 body {
     background-color: #eee;
+    margin: auto;
 }
+
+h1{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 200px;
+  }
+  
+  .page-grid {
+    display: grid;
+  }
+  
+  .nav-bar-grid {
+    display: grid;
+  }
