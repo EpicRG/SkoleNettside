@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "d:\\GitHub\\Reposetorys\\SkoleNettside\\index.html"
+            "file": "D:\\wamp64\\www\\index.html"
         }
     ]
 }
