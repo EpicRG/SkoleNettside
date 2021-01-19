@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+}
+
+#Hovedinnhold{
+    width: 97.5%;
+    padding: 20 px;
+    margin: 10px auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    padding:0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+
+img.left-image{
+    padding-left: 10px;
+    padding-bottom: 8px;
+    float: right;
+    }
