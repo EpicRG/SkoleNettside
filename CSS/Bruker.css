@@ -1,0 +1,7 @@
+.back_button{
+    display: inline-block;
+    width: 50px;
+    border: 1px solid black;
+    color:rgb(0, 217, 255);
+    text-align: center;
+}

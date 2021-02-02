@@ -42,11 +42,11 @@
     </div>
   </div>
   <a href="HTML\Contact.html">Contact</a>
-  <a href="Users/register.php">Log In</a>
+  <a href="Users/register.php">Bruker</a>
 	</div>
 </div>
 		<h1>
-			Velkommen til nettsiden min!
+			Hei, Du har logget inn!
 		</h1>
 		
 	</div>
