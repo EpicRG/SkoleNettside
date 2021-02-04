@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .back_button {
     color: #fff;
     background-color: rgb(85, 160, 247);
@@ -9,13 +8,6 @@
     font-size: 14px;
     font-weight: normal;
     line-height: 1.42857143;
-=======
-.back_button{
-    display: inline-block;
-    width: 50px;
-    border: 1px solid black;
-    color:rgb(0, 217, 255);
->>>>>>> 05d6a5321b035b5ca33a8e5e3ccc4d6c0e93cf83
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -80,9 +72,5 @@
   }
   .back_button .badge {
     color: #f0ad4e;
-<<<<<<< HEAD
-    background-color: #fff;}
-=======
     background-color: #fff;
-  }
->>>>>>> 05d6a5321b035b5ca33a8e5e3ccc4d6c0e93cf83
+}
