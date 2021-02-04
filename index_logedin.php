@@ -99,7 +99,7 @@
     </div>
   </div>
   <a href="HTML\Contact.html">Contact</a>
-  <a href="Users/register.php">Bruker</a>
+  <a href="Users/welcome.php">Bruker</a>
 	</div>
 </div>
 		<h1>

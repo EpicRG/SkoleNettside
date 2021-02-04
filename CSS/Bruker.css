@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .back_button{
     display: inline-block;
     width: 50px;
@@ -7,10 +8,85 @@
     text-align: center;
 =======
 .back_button{
+=======
+.back_button {
+    color: #fff;
+    background-color: rgb(85, 160, 247);
+    border-color: rgb(85, 160, 247);
+    padding: 6px 12px;
+>>>>>>> 0a093df... Fiking av css til bruker instillinger
     display: inline-block;
-    width: 50px;
-    border: 1px solid black;
-    color:rgb(0, 217, 255);
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
     text-align: center;
+<<<<<<< HEAD
 >>>>>>> fefdcb4... Login stuff
 }
+=======
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .back_button:focus,
+  .back_button.focus {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #985f0d;
+  }
+  .back_button:hover {
+    color: #fff;
+    background-color: rgb(33, 127, 235);
+    border-color: rgb(33, 127, 235);
+  }
+  .back_button:active,
+  .back_button.active,
+  .open > .dropdown-toggle.back_button {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+  }
+  .back_button:active:hover,
+  .back_button.active:hover,
+  .open > .dropdown-toggle.back_button:hover,
+  .back_button:active:focus,
+  .back_button.active:focus,
+  .open > .dropdown-toggle.back_button:focus,
+  .back_button:active.focus,
+  .back_button.active.focus,
+  .open > .dropdown-toggle.back_button.focus {
+    color: #fff;
+    background-color: #d58512;
+    border-color: #985f0d;
+  }
+  .back_button:active,
+  .back_button.active,
+  .open > .dropdown-toggle.back_button {
+    background-image: none;
+  }
+  .back_button.disabled:hover,
+  .back_button[disabled]:hover,
+  fieldset[disabled] .back_button:hover,
+  .back_button.disabled:focus,
+  .back_button[disabled]:focus,
+  fieldset[disabled] .back_button:focus,
+  .back_button.disabled.focus,
+  .back_button[disabled].focus,
+  fieldset[disabled] .back_button.focus {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+  }
+  .back_button .badge {
+    color: #f0ad4e;
+    background-color: #fff;}
+>>>>>>> 0a093df... Fiking av css til bruker instillinger
