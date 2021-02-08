@@ -47,7 +47,6 @@
 </div>
 		<h1>
 			Velkommen til nettsiden min!
-			Test
 		</h1>
 		
 	</div>
