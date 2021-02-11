@@ -30,19 +30,19 @@
 		  <a href="HTML\Datasikkerhet.html">Data Sikkerhet</a>
 	  </div>
   </div>
-  <div class="subnav">
-    <button class="subnavbtn">Other links <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content"> 
-      	<a href="https://www.youtube.com/channel/UCOgkRNrHy2-mukHy3Ub7cOA?sub_confirmation=1" target="_blank">YouTube</a>
-	    <a href="https://www.youtube.com/channel/UCjWKoKzDxRJTsDkxRYbh1_A?sub_confirmation=1" target="_blank">Subscribe to Bent</a>
-		<a href="https://twitch.com/epic_rg" target="_blank">Twitch</a>
-		<a href="https://www.patreon.com/user?u=13819640" target="_blank">Patreon</a>
-		<a href="https://www.twitter.com/EpicRG_Official" target="_blank">Twitter</a>
-	    <a href="https://www.instagram.com/EpicRG_Official" target="_blank">Instagram</a>
-    </div>
-  </div>
-  <a href="HTML\Contact.html">Contact</a>
-  <a href="Users/register.php">Log In</a>
+	<div class="subnav">
+		<button class="subnavbtn">Other links <i class="fa fa-caret-down"></i></button>
+			<div class="subnav-content"> 
+				<a href="https://www.youtube.com/channel/UCOgkRNrHy2-mukHy3Ub7cOA?sub_confirmation=1" target="_blank">YouTube</a>
+				<a href="https://www.youtube.com/channel/UCjWKoKzDxRJTsDkxRYbh1_A?sub_confirmation=1" target="_blank">Subscribe to Bent</a>
+				<a href="https://twitch.com/epic_rg" target="_blank">Twitch</a>
+				<a href="https://www.patreon.com/user?u=13819640" target="_blank">Patreon</a>
+				<a href="https://www.twitter.com/EpicRG_Official" target="_blank">Twitter</a>
+				<a href="https://www.instagram.com/EpicRG_Official" target="_blank">Instagram</a>
+			</div>
+	</div>
+		<a href="HTML\Contact.html">Contact</a>
+		<a href="Users/register.php">Log In</a>
 	</div>
 </div>
 		<h1>
