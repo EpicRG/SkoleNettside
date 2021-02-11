@@ -49,6 +49,16 @@
 			Velkommen til nettsiden min!
 		</h1>
 		
+		<div class="hovedvindu">
+
+		<h1>Legge inn kilder i databasen</h1>
+		<?php
+
+
+		include 'PHP/database.php';
+		?>
+		</div>
+		
 	</div>
 </class>
 
