@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/Oversikt.css">
+</head>
+<body>
+    
 <?php
  // Tilkoblingsinformasjon
  $tjener = "localhost";
@@ -15,22 +26,22 @@
 
  //Angi UTF-8 som tegnsett
  $kobling->set_charset("utf8");
-$sql = "SELECT K.ForfatterID, K.Fornavn, K.Etternavn, B.Kilde, B.ArtikkelID,
-B.Beskrivelse, P.Dato
-FROM Kilder.Forfatter K, Kilder.Artikler B, Kilder.Forfatter_has_Artikler P
-WHERE K.ForfatterID=P.F_ForfatterID
-AND B.ArtikkelID=P.A_ArtikkelID
-ORDER BY B.Beskrivelse, B.ArtikkelID, K.Etternavn, P.Dato";
+$sql = "SELECT K.ForfatterID, K.Fornavn, K.Etternavn, B.Kilde, B.ArtikkelID, B.Beskrivelser, P.Dato
+FROM mydb.Forfatter K, mydb.Artikkler B, mydb.Forfatter_has_Artikler P
+WHERE K.ForfatterID=P.Forfatter_ForfatterID
+AND B.ArtikkelID=P.Artikkler_ArtikkelID
+ORDER BY B.Beskrivelser, B.ArtikkelID, K.Etternavn, P.Dato";
+
 $resultat = $kobling->query($sql);
-echo "<table>"; // Starter tabellen
-echo "<tr>"; // Lager en rad med overskrifter
- echo "<th>Beskrivelse</th>";
- echo "<th>Kilde</th>";
- echo "<th>Fornavn</th>";
- echo "<th>Etternavn</th>";
- echo "<th>Dato</th>";
- echo "<th>Forfatter ID</th>";
- echo "<th>Artikkel ID</th>";
+echo "<table>"; //Starter tabellen
+echo "<tr>"; //Lager en rad med overskrifter
+echo "<th>Beskrivelse</th>";
+echo "<th>Kilde</th>";
+echo "<th>Fornavn</th>";
+echo "<th>Etternavn</th>";
+echo "<th>Dato</th>";
+echo "<th>Forfatter ID</th>";
+echo "<th>Artikkel ID</th>";
 
 
 echo "</tr>";
@@ -41,7 +52,7 @@ while($rad = $resultat->fetch_assoc()) {
  $FE = $rad["Etternavn"];
  $AID = $rad["ArtikkelID"];
  $Kilde = $rad["Kilde"];
- $ABeskrivelse = $rad["Beskrivelse"];
+ $ABeskrivelse = $rad["Beskrivelser"];
 
  echo "<tr>";
  echo "<td>$ABeskrivelse</td>";
@@ -56,3 +67,5 @@ while($rad = $resultat->fetch_assoc()) {
 }
 echo "</table>"; // Avslutter tabellen
 ?>
+</body>
+</html>

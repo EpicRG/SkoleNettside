@@ -21,7 +21,7 @@ if(isset($_POST["leggtil"]))
  $FID = $_POST["ForfatterID"];
 
 
- $sql = "INSERT INTO Forfatter_has_Artikler(F_ForfatterID, A_ArtikkelID) VALUES
+ $sql = "INSERT INTO Forfatter_has_Artikler(Forfatter_ForfatterID, Artikkler_ArtikkelID	) VALUES
 ('$FID', '$AID')";
  if($kobling->query($sql)) {
  echo "Spørringen $sql ble gjennomført.";
