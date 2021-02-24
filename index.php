@@ -53,8 +53,6 @@
 
 		<h1>Legge inn kilder i databasen</h1>
 		<?php
-
-
 		include 'PHP/database.php';
 		include 'PHP/Oversikt.php';
 		?>
